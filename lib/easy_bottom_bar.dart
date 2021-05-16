@@ -5,11 +5,13 @@ class EasyBottomBar extends StatefulWidget {
   List<Widget> tabs;
   int currentindex = 0;
   List<BottomNavigationBarItem> bottomItems;
+  Color backgroundColor = Color.fromRGBO(58, 66, 86, 1.0);
 
   EasyBottomBar({
     @required this.tabs,
     @required this.bottomItems,
     this.currentindex,
+    this.backgroundColor,
   });
 
   @override
@@ -28,7 +30,7 @@ class _EasyBottomBarState extends State<EasyBottomBar> {
         showUnselectedLabels: false,
         selectedFontSize: 17,
         currentIndex: widget.currentindex,
-        backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
+        backgroundColor: widget.backgroundColor,
         selectedItemColor: Colors.greenAccent,
         // Change Tabs ...
         onTap: (index) {

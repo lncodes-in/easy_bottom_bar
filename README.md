@@ -44,7 +44,13 @@ class SecondScreen extends StatelessWidget {
 In Your `MaterialApp` use `EasyBottomBar` to show a Bottom Navigation Bar easily
 In `tabs` write Widgets/classes which you want to add as HomeScreen
 
-# CurrentIndex
+### CurrentIndex
 By Default `currentIndex` is set to `0`,but if you want to set another tab of `EasyBottomBar` to default you can change `currentIndex` to 1,2,3 whatever you want.
 
-Thanks for choosing my package
+
+### Background-Color
+Another Property `background-color` set a background-color to your `EasyBottomBar` 
+Default Value is `Color.fromRGBO(58, 66, 86, 1.0)` 
+
+Thanks for using my Package 
+Happy Coding 
