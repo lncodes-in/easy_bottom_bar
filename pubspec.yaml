@@ -1,14 +1,16 @@
 name: easy_bottom_bar
 description: A Flutter package to make a bottomBar easily in few lines by avoiding more lines of code.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/lncodes-in/easy_bottom_bar
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '2.14.0-48.0.dev'
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
+    sdk: flutter
+  flutter_localizations:
     sdk: flutter
 
 dev_dependencies:
